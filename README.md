@@ -4,7 +4,7 @@
 **Composite** design pattern describes a group of objects that are treated the same way as a single instance. ([wiki](https://en.wikipedia.org/wiki/Composite_pattern))
 ![](https://github.com/shamy1st/design-pattern-composite-java/blob/main/composite-uml.png)
 ### Problem: 
-You have **Shape** (Square, Circle, ...) and **Group** of shapes and you want to treat **Group** like a **Shape** at any operation.
+You have **Shape** (Square, Circle, ...) and **Group** of shapes and you want to treat **Group** like a **Shape** at any operation like (render, draw, resize, ...).
 
 The issue with this implementation that in **Group** class each time you want to add new operation you need to cast the **Object** to its type.
 
