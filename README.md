@@ -2,7 +2,7 @@
 # Composite Design Pattern (Java)
 
 **Composite** group of objects treated the same way as a single instance.
-![](https://github.com/shamy1st/design-pattern-composite-java/blob/main/composite-uml.png)
+![](https://github.com/shamy1st/design-pattern-composite/blob/main/uml.png)
 ### Problem: 
 You have **Shape** (Square, Circle, ...) and **Group** of shapes and you want to treat **Group** like a **Shape** at any operation like (render, draw, resize, ...).
 
@@ -50,4 +50,4 @@ The issue with this implementation that in **Group** class each time you want to
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-composite-java/blob/main/composite-solution-uml.png)
+![](https://github.com/shamy1st/design-pattern-composite/blob/main/uml-solution.png)
